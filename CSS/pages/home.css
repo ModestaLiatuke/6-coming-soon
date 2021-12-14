@@ -16,8 +16,12 @@
 /* CUSTOM STYLE BELLOW THIS COMPONENT, FOR THIS PAGE */
 /* HERO start*/
 .hero {
+    min-width: 100vh;
     padding-bottom: 30px;
     background-image: url(../../img/banner.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 .hero .row-short {
     text-align: center;
@@ -57,4 +61,10 @@
 /* MAIN CONTENT end */
 
 /* FOOTER start */
+.footer {
+    background-image: url(../../img/banner.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
 /* FOOTER end */
