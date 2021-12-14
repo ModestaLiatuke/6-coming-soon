@@ -16,6 +16,5 @@ Design: [Sing up](https://discord.com/channels/571393319201144843/85024553383886
 - CSS blur effect
 - CSS background image
 
-
 ## Authors
 Modesta [Github](https://github.com/ModestaLiatuke)
