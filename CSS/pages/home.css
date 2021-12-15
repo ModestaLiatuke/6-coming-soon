@@ -63,20 +63,27 @@
 }
 .column > :last-child{
     margin-bottom: 0px;
-    background-color: red;
 }
-
 .content-title {
     text-transform: uppercase;
     font-size: 20px;
     line-height: 1.2em;
-    
 }
 .content-description {
     font-size: 17px;
+    color: #999;
 }
+.content-description > .link {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+.content-description > .link:hover {
+    text-decoration: underline;
+}
+
 .progress-bar {
     margin-bottom: 20px;
+    background-color: red;
 }
 
 
