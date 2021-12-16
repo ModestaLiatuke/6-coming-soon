@@ -1,10 +1,15 @@
 .form {
+    display: inline-block;
+    width: 100%;
 }
 .form > * {
     margin-bottom: 20px;
 }
 .form > *:last-child {
     margin-bottom: 0;
+}
+.form > label {
+    display: none;
 }
 .form >input {
     width: calc(50% - 10px);
