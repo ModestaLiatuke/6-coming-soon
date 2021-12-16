@@ -16,7 +16,7 @@
 .container .left {
     float: left;
     width: 50%;
-    margin-left: 10%;
+    margin-right: 10%;
 }
 .container .right {
     float:left;
