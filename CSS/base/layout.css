@@ -1,8 +1,7 @@
 .container {
     display: inline-block;
     width: 100%;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 60px 0;
 }
 .container > .row-long {
     display: inline-block;
@@ -17,7 +16,7 @@
 .container .left {
     float: left;
     width: 50%;
-    margin-bottom: 10%;
+    margin-right: 10%;
 }
 .container .right {
     float:left;
