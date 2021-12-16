@@ -36,6 +36,7 @@
     height: 50px;
     margin-bottom: 45px;
     object-fit: contain;
+    object-position: center;
 
 }
 .hero .main-title {
