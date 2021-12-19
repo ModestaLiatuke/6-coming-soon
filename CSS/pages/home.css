@@ -111,6 +111,7 @@ main .form > button {
 footer.container {
     padding-top: 0;
     text-align: center;
+    color: #fff8;
 }
 .socials {
     padding: 15px 0;
@@ -138,5 +139,16 @@ footer .logo {
     object-position: top;
     margin: 50px 0;
 }
-
+footer .trio > p {
+    display: inline-block;
+    padding: 0 10px;
+    border-left: white solid 2px;
+}
+footer .trio > p:first-child {
+    border-left: none;
+}
+footer .link {
+    color: white;
+    text-decoration: none;
+}
 /* FOOTER: end */
