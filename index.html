@@ -21,7 +21,7 @@
     <section class="container bg-primary hero">
         <div class="row-short">
             <img class="logo" src="./img/icon-logo.png" alt="icon-logo">
-            <h1 class="main-title">Comming soon</h1>
+            <h1 id="start-up" class="main-title">Comming soon</h1>
             <p class="main-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum .</p>
             <div class="clock">
                 <div class="time">
@@ -42,7 +42,9 @@
                 </div>
             </div>
             <form class="form">
-                SUSCRIBE FORM
+                <label for="email">Email</label>
+                <input id="email" class="input" type="email" placeholder="Email" required autocomplete="email" value="">
+                <button class="btn" type="submit">Send message</button>
             </form>
             <div class="mouse">
                 MOUSE
@@ -52,7 +54,7 @@
     <main class="container">
         <div class="row-long">
             <div class="column left">
-                <h2 class="content-title">About setup</h2>
+                <h2 id="questions" class="content-title">About setup</h2>
                 <p class="content-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. <a class="link" href="#">Metrox</a> Dolores asperiores perspiciatis porro commodi culpa, maxime fuga quod eligendi ex magnam.</p>
                 <div class="progress-bar">
                     <div class="top">
@@ -86,16 +88,25 @@
                 <h2 class="content-title">Have any question?</h2>
                 <p class="content-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit.<a class="link" href="mailto:vardenis.pavardenis@pastas.xyz"> vardenis.pavardenis@pastas.xyz </a> Voluptatum suscipit quas voluptate consequuntur officia odit voluptates, autem cum obcaecati facilis?</p>
                 <form class="form">
-                    <input type="text" placeholder="Name" required autocomplete="name">
-                    <input type="email" placeholder="Email" required autocomplete="email">
-                    <textarea name="" id="" placeholder="Message" required autocomplete="off"></textarea>
-                    <button type="submit">Send message</button>
+                    <label for="name">Name</label>
+                    <input id="name" class="input" type="text" placeholder="Name" required autocomplete="name" value="">
+                    <label for="email">Email</label>
+                    <input id="email" class="input" type="email" placeholder="Email" required autocomplete="email" value="">
+                    <label for="message">Message</label>
+                    <textarea id="message" class="input" name="" id="" placeholder="Message" required autocomplete="off"></textarea>
+                    <button class="btn" type="submit">Send message</button>
                 </form>
             </div>
     </main>
     <footer class="container bg-primary">
-        <div class="row-long">
-            FOOTER CONTENT
+        <div class="row-long socials">
+            <a href="#" target="blank" class="fa fa-facebook"></a>
+            <a href="#" target="blank" class="fa fa-twitter"></a>
+            <a href="#" target="blank" class="fa fa-dribbble"></a>
+            <a href="#" target="blank" class="fa fa-tumblr"></a>
+            <a href="#" target="blank" class="fa fa-linkedin"></a>
+            <a href="#" target="blank" class="fa fa-instagram"></a>
+            <a href="#" target="blank" class="fa fa-rss"></a>
         </div>
         <div class="row-short">
             FOOTER CONTENT
