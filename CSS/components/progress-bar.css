@@ -11,7 +11,7 @@
     float: left;
 }
 .progress-bar > .top > .value {
-    float: right
+    float: right;
 }
 .progress-bar > .botton {
     display: inline-block;
@@ -22,7 +22,20 @@
 .progress-bar > .botton > .bar {
     width: 90%;
     height: 100%;
-    background-color: var(--primary-color);
 }
-
-
+.progress-bar .bar > .loading {
+    width: 0%;
+    height: 100%;
+    background-color: var(--primary-color);
+    animation-name: loading;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes loading {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
